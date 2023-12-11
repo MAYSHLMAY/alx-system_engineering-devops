@@ -1,2 +1,2 @@
-#!/bin/bash
-echo \"\(Ôo\)\'
+# 0x02 shell redirections
+## more readme coming soon
