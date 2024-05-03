@@ -26,16 +26,16 @@ int infinite_while(void)
 int main(void)
 {
 	pid_t pid;
-	char count = 0;
+	int child_count = 0;
 
-	while (count < 5)
+	while (child_count < 5)
 	{
 		pid = fork();
 		if (pid > 0)
 		{
 			printf("Zombie process created, PID: %d\n", pid);
 			sleep(1);
-			count++;
+			child_count++;
 		}
 		else
 			exit(0);
