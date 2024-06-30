@@ -14,3 +14,5 @@ file_line { 'Delare identity file':
   line   => '     IdentityFile ~/.ssh/school',
   replace => true,
 }
+
+
