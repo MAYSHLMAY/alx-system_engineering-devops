@@ -1,0 +1,7 @@
+# MySQL primary configuration for web-01
+
+[mysqld]
+bind-address = 0.0.0.0  # Allows connections from any IP address
+server-id = 1
+log_bin = /var/log/mysql/mysql-bin.log
+binlog_do_db = tyrell_corp
